@@ -1,12 +1,23 @@
 body{
-    text-align: center;
     margin: 0;
     background-color: hsl(0, 0%, 8%);
     font-family: "Inter", sans-serif
 }
 
+a{
+    display: block;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+}
+
+.town{
+    color: hsl(75, 94%, 57%);
+}
+
 .top-container{
     margin-top: 100px;
+    text-align: center;
     
 }
 .middle-container{
@@ -15,12 +26,34 @@ body{
     margin: auto;
     border-radius: 70px;
     margin-bottom: 100px;
-    padding: 50px 50px;
+    padding: 100px 100px;
 }
 
 .middle-container img{
     border-radius: 50% 50% 50% 50% ;
 }
-.links a{
+.links{
     text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.links{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 100px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.links:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    font-weight: bold;
+}
+
+.challenge{
+    color: hsl(0, 0%, 100%);
+}
+
+.description p{
+    line-height: 2;
 }

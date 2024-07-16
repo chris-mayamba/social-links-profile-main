@@ -33,7 +33,7 @@ I modified it by adding a personal layer
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/web-page-created-without-css-grid-and-flexbox-gCTY3EF6a1)
 - Live Site URL: [Live web site](https://social-links-profile-main-seven-silk.vercel.app/)
 
 ## My process

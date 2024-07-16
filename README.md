@@ -68,7 +68,6 @@ I've learnt how to structure my web page better
 
 ## Author
 
-- Website - [chris mayamba](https://www.your-site.com)
 - Frontend Mentor - [@chris-mayamba](https://www.frontendmentor.io/profile/chris-mayamba)
 
 

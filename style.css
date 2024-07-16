@@ -16,7 +16,8 @@ a{
 }
 
 .top-container{
-    margin-top: 100px;
+    padding: 100px;
+    padding-bottom: 0;
     text-align: center;
     
 }
@@ -52,6 +53,11 @@ a{
 
 .challenge{
     color: hsl(0, 0%, 100%);
+}
+
+.challenge a{
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);;
 }
 
 .description p{

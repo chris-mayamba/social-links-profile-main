@@ -16,18 +16,18 @@ a{
 }
 
 .top-container{
-    padding: 100px;
+    padding: 6.25em;
     padding-bottom: 0;
     text-align: center;
     
 }
 .middle-container{
     background-color: hsl(0, 0%, 12%);
-    width: 300px;
+    width: 18.75rem;
     margin: auto;
-    border-radius: 70px;
-    margin-bottom: 100px;
-    padding: 100px 100px;
+    border-radius: 4.375em;
+    margin-bottom: 6.25em;
+    padding: 6.25em 6.25em;
 }
 
 .middle-container img{
@@ -40,9 +40,9 @@ a{
 
 .links{
     background-color: hsl(0, 0%, 20%);
-    border-radius: 100px;
-    padding: 20px;
-    margin-bottom: 10px;
+    border-radius: 6.25em;
+    padding: 1.25em;
+    margin-bottom: 0.625em;
 }
 
 .links:hover{
@@ -52,6 +52,8 @@ a{
 }
 
 .challenge{
+    width: 20%;
+    margin: 0 auto;
     color: hsl(0, 0%, 100%);
 }
 

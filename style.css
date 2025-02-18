@@ -1,67 +1,34 @@
-body{
-    margin: 0;
-    background-color: hsl(0, 0%, 8%);
-    font-family: "Inter", sans-serif
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
 }
 
-a{
-    display: block;
-}
-.name{
-    color: hsl(0, 0%, 100%);
+.text-color {
+  color: hsl(0, 0%, 100%);
 }
 
-.town{
-    color: hsl(75, 94%, 57%);
+.town {
+  color: hsl(75, 94%, 57%);
 }
 
-.top-container{
-    padding: 6.25em;
-    padding-bottom: 0;
-    text-align: center;
-    
+.bg-body {
+  background-color: hsl(0, 0%, 12%);
 }
-.middle-container{
-    background-color: hsl(0, 0%, 12%);
-    width: 18.75rem;
-    margin: auto;
-    border-radius: 4.375em;
-    margin-bottom: 6.25em;
-    padding: 6.25em 6.25em;
+.middle-container {
+  background-color: hsl(0, 0%, 12%);
 }
 
-.middle-container img{
-    border-radius: 50% 50% 50% 50% ;
-}
-.links{
-    text-decoration: none;
-    color: hsl(0, 0%, 100%);
+.links {
+  background-color: hsl(0, 0%, 20%);
 }
 
-.links{
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 6.25em;
-    padding: 1.25em;
-    margin-bottom: 0.625em;
+.links:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+  font-weight: bold;
 }
 
-.links:hover{
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 12%);
-    font-weight: bold;
-}
-
-.challenge{
-    width: 20%;
-    margin: 0 auto;
-    color: hsl(0, 0%, 100%);
-}
-
-.challenge a{
-    text-decoration: none;
-    color: hsl(75, 94%, 57%);;
-}
-
-.description p{
-    line-height: 2;
+.challenge a {
+  color: hsl(75, 94%, 57%);
 }

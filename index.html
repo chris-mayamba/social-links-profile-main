@@ -1,57 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
   <title>Frontend Mentor | Social links profile</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  
 </head>
-<body>
-  <div class="top-container">
-    <div class="middle-container">
-      <div class="avatar">
-        <img src="images/avatar-jessica.jpeg" alt="avatar-img">
+<body class="bg-zinc-700 ">
+  <div class="bg-body mt-8 pt-8 mx-auto max-w-md overflow-hidden rounded-xl shadow-md md:max-w-2xl bg-neutral-300">
+    <div class="flex flex-col items-center">
+      <div >
+        <img class="aspect-3/2 object-cover size-24 rounded-full" src="images/avatar-jessica.jpeg" alt="avatar-img">
       </div>
-      <div class="description">
-        <p class="name">Jessica Randall</p>
-        <p class="town">London, United Kingdom</p>
+      <div class=" flex flex-col items-center gap-y-4" >
+        <p class="name text-color mt-4">Jessica Randall</p>
+        <p class="town text-green-950">London, United Kingdom</p>
 
       </div>
-      <p class="name">"Front-end developer and avid reader"</p>
-      <div>
-          <a class="links" href="https://github.com/">GitHub</a></p>       
-          <a class="links" href="https://www.frontendmentor.io/">Frontend Mentor</a></p>
-          <a class="links" href="https://fr.linkedin.com/">LinkedIn</a></p>
-          <a class="links" href="https://twitter.com/?lang=fr">Twitter</a></p>
-          <a class="links" href="https://www.instagram.com/">Instagram</a></p>      
+      <p class="name text-color">"Front-end developer and avid reader"</p>
+      <div class="flex flex-col gap-1">
+          <a class="p-2 links border-indigo-500 rounded-full bg-neutral-600 hover:bg-amber-800 text-center text-color mt-8 " href="https://github.com/">GitHub</a></p>       
+          <a class="p-2 links border-indigo-500 rounded-full bg-neutral-600 hover:bg-amber-800 text-center text-color" href="https://www.frontendmentor.io/">Frontend Mentor</a></p>
+          <a class="p-2 links border-indigo-500 rounded-full bg-neutral-600 hover:bg-amber-800 text-center text-color" href="https://fr.linkedin.com/">LinkedIn</a></p>
+          <a class="p-2 links border-indigo-500 rounded-full bg-neutral-600 hover:bg-amber-800 text-center text-color" href="https://twitter.com/?lang=fr">Twitter</a></p>
+          <a class="p-2 links border-indigo-500 rounded-full bg-neutral-600 hover:bg-amber-800 text-center text-color mb-8" href="https://www.instagram.com/">Instagram</a></p>      
     </div>
   </div>
 
-<div class="challenge">
+<div class="challenge ">
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-  
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
+  <div class="attribution ">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/chris-mayamba">Chris Mayamba</a>.
   </div>

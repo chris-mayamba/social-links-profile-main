@@ -42,6 +42,7 @@ I modified it by adding a personal layer
 
 - Semantic HTML5 markup
 - CSS custom properties
+- [Tailwindcss](https://tailwindcss.com/)
 
 
 ### What I learned
